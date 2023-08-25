@@ -1,0 +1,95 @@
+*{
+box-sizing: borde-box;
+margin: 0;
+font-family: sans-serif;
+}
+
+body {
+  background-image: url("background.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+main {
+width: 1000px;
+height: 800px;
+margin: auto;
+margin-top: 50px;
+margin-bottom: 50px;
+padding: 10px;
+background-color: rgba(0,0,0,0.37);
+border-radius: 18px;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+h1{
+color: rgb(23,212,23);
+text-align: center;
+font-weight: bold;
+}
+
+ h2::before {
+  content : "\25A0" ;
+  font-weight: bold;
+ }
+
+ h5::before {
+  content : "\21D2" ;
+  font-weight: bold;
+ }
+
+ h5,h2,h6 {
+   Color: white;
+ }
+
+.container {
+  margin-top: 20px;
+  margin-left :4%;
+  margin-right:4%;
+  height: 35px;
+  position: relative;
+  background-color: rgb(23,212,23);
+}
+
+.center {
+  margin: 0;
+  position: absolute ;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+ul{
+  list-style-type: none
+}
+
+li {
+  margin-top: 20px;
+  }
+
+.line {
+  height: 35px;
+  border-radius: 5px;
+}
+
+#yellow {
+  background-color:  rgb(237,188,28);
+  width: 32%;
+}
+
+#green {
+background-color:  #556B2F;
+width: 16%;
+}
+
+#red {
+background-color:#A52A2A;
+width: 78%;
+}
